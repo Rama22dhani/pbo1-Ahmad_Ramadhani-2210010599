@@ -6,6 +6,7 @@ package informasirecordingayam;
 import java.util.Date;
 import Makan.*;
 import CRUD.database;
+import gui.FrameUtama;
 /**
  *
  * @author asus
@@ -16,7 +17,10 @@ public class InformasiRecordingAyam {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        database dbconnect = new database();
+        
+        new FrameUtama().setVisible(true);
+        
+        // database dbconnect = new database();
         // table uji
         // dbconnect.tambahuji("1", "Ramadhani", "081251373422", "Jl.Belitung");
         // dbconnect.ubahuji("1", "Rama", "081251373422", "Jl.Belitung");
